@@ -1,21 +1,8 @@
 # Identicon
 
-**TODO: Add description**
+A simple elixir Identicon maker that transforms a given string into a `.png` file.
 
-## Installation
+## Getting Started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
+After cloning the projet just run `$ iex -S mix` to compile and run the project in the interactive elixir mode.
+To create a new Identicon just call `iex> Identicon.main("sampleText")` that a sampleText.png will be created in the project root dir.
